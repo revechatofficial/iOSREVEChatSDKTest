@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - GoogleWebRTC (1.1.31999)
+  - ReveChatSDK (2.2.7):
+    - AFNetworking
+    - GoogleWebRTC
+    - SocketRocket
+  - SocketRocket (0.6.0)
+
+DEPENDENCIES:
+  - ReveChatSDK
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - GoogleWebRTC
+    - ReveChatSDK
+    - SocketRocket
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  GoogleWebRTC: b39a78c4f5cc6b0323415b9233db03a2faa7b0f0
+  ReveChatSDK: 6e127fe1619fd997fa2184a4c5afff2afdc6c1cb
+  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+
+PODFILE CHECKSUM: 0e04ffba014dfcb8f4db0588c5582bf11eca131f
+
+COCOAPODS: 1.12.0

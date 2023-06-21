@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A49234F86B87F43CAA7E790 /* Pods_iOSReveChatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423FE0FD5DDA360EA0CDD070 /* Pods_iOSReveChatSDK.framework */; };
+		C7AAD15B29E29A5E00F9ED85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AAD15A29E29A5E00F9ED85 /* AppDelegate.m */; };
+		C7AAD15E29E29A5E00F9ED85 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AAD15D29E29A5E00F9ED85 /* SceneDelegate.m */; };
+		C7AAD16129E29A5E00F9ED85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AAD16029E29A5E00F9ED85 /* ViewController.m */; };
+		C7AAD16429E29A5E00F9ED85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AAD16229E29A5E00F9ED85 /* Main.storyboard */; };
+		C7AAD16629E29A5F00F9ED85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7AAD16529E29A5F00F9ED85 /* Assets.xcassets */; };
+		C7AAD16929E29A5F00F9ED85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AAD16729E29A5F00F9ED85 /* LaunchScreen.storyboard */; };
+		C7AAD16C29E29A5F00F9ED85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AAD16B29E29A5F00F9ED85 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		423FE0FD5DDA360EA0CDD070 /* Pods_iOSReveChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSReveChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		460EB9E2292BB4C4A44B1946 /* Pods-iOSReveChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReveChatSDK.release.xcconfig"; path = "Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK.release.xcconfig"; sourceTree = "<group>"; };
+		C7AAD15629E29A5E00F9ED85 /* iOSReveChatSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSReveChatSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7AAD15929E29A5E00F9ED85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7AAD15A29E29A5E00F9ED85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7AAD15C29E29A5E00F9ED85 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C7AAD15D29E29A5E00F9ED85 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C7AAD15F29E29A5E00F9ED85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7AAD16029E29A5E00F9ED85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7AAD16329E29A5E00F9ED85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7AAD16529E29A5F00F9ED85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7AAD16829E29A5F00F9ED85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7AAD16A29E29A5F00F9ED85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7AAD16B29E29A5F00F9ED85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB98E05FF932050188713E43 /* Pods-iOSReveChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReveChatSDK.debug.xcconfig"; path = "Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7AAD15329E29A5E00F9ED85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A49234F86B87F43CAA7E790 /* Pods_iOSReveChatSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DC908CE58AB61F4146C5A52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				423FE0FD5DDA360EA0CDD070 /* Pods_iOSReveChatSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7AAD14D29E29A5E00F9ED85 = {
+			isa = PBXGroup;
+			children = (
+				C7AAD15829E29A5E00F9ED85 /* iOSReveChatSDK */,
+				C7AAD15729E29A5E00F9ED85 /* Products */,
+				EC6DC56D70F3CD2250F369B4 /* Pods */,
+				1DC908CE58AB61F4146C5A52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7AAD15729E29A5E00F9ED85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7AAD15629E29A5E00F9ED85 /* iOSReveChatSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7AAD15829E29A5E00F9ED85 /* iOSReveChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C7AAD15929E29A5E00F9ED85 /* AppDelegate.h */,
+				C7AAD15A29E29A5E00F9ED85 /* AppDelegate.m */,
+				C7AAD15C29E29A5E00F9ED85 /* SceneDelegate.h */,
+				C7AAD15D29E29A5E00F9ED85 /* SceneDelegate.m */,
+				C7AAD15F29E29A5E00F9ED85 /* ViewController.h */,
+				C7AAD16029E29A5E00F9ED85 /* ViewController.m */,
+				C7AAD16229E29A5E00F9ED85 /* Main.storyboard */,
+				C7AAD16529E29A5F00F9ED85 /* Assets.xcassets */,
+				C7AAD16729E29A5F00F9ED85 /* LaunchScreen.storyboard */,
+				C7AAD16A29E29A5F00F9ED85 /* Info.plist */,
+				C7AAD16B29E29A5F00F9ED85 /* main.m */,
+			);
+			path = iOSReveChatSDK;
+			sourceTree = "<group>";
+		};
+		EC6DC56D70F3CD2250F369B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB98E05FF932050188713E43 /* Pods-iOSReveChatSDK.debug.xcconfig */,
+				460EB9E2292BB4C4A44B1946 /* Pods-iOSReveChatSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7AAD15529E29A5E00F9ED85 /* iOSReveChatSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7AAD16F29E29A5F00F9ED85 /* Build configuration list for PBXNativeTarget "iOSReveChatSDK" */;
+			buildPhases = (
+				C0764FBDD50E2FF91AB2CBB7 /* [CP] Check Pods Manifest.lock */,
+				C7AAD15229E29A5E00F9ED85 /* Sources */,
+				C7AAD15329E29A5E00F9ED85 /* Frameworks */,
+				C7AAD15429E29A5E00F9ED85 /* Resources */,
+				60B7E51B4BC81ADF51E26FBE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSReveChatSDK;
+			productName = iOSReveChatSDK;
+			productReference = C7AAD15629E29A5E00F9ED85 /* iOSReveChatSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7AAD14E29E29A5E00F9ED85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C7AAD15529E29A5E00F9ED85 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C7AAD15129E29A5E00F9ED85 /* Build configuration list for PBXProject "iOSReveChatSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7AAD14D29E29A5E00F9ED85;
+			productRefGroup = C7AAD15729E29A5E00F9ED85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7AAD15529E29A5E00F9ED85 /* iOSReveChatSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7AAD15429E29A5E00F9ED85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AAD16929E29A5F00F9ED85 /* LaunchScreen.storyboard in Resources */,
+				C7AAD16629E29A5F00F9ED85 /* Assets.xcassets in Resources */,
+				C7AAD16429E29A5E00F9ED85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60B7E51B4BC81ADF51E26FBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0764FBDD50E2FF91AB2CBB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSReveChatSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7AAD15229E29A5E00F9ED85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AAD16129E29A5E00F9ED85 /* ViewController.m in Sources */,
+				C7AAD15B29E29A5E00F9ED85 /* AppDelegate.m in Sources */,
+				C7AAD16C29E29A5F00F9ED85 /* main.m in Sources */,
+				C7AAD15E29E29A5E00F9ED85 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7AAD16229E29A5E00F9ED85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7AAD16329E29A5E00F9ED85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7AAD16729E29A5F00F9ED85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7AAD16829E29A5F00F9ED85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7AAD16D29E29A5F00F9ED85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7AAD16E29E29A5F00F9ED85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7AAD17029E29A5F00F9ED85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB98E05FF932050188713E43 /* Pods-iOSReveChatSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N66HCPTXFG;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSReveChatSDK/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ReveChatSDKProduction;
+				INFOPLIST_KEY_NSCameraUsageDescription = "description to use camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Add your description here";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "description to use photo library";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.revechatSdk.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7AAD17129E29A5F00F9ED85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460EB9E2292BB4C4A44B1946 /* Pods-iOSReveChatSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N66HCPTXFG;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSReveChatSDK/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ReveChatSDKProduction;
+				INFOPLIST_KEY_NSCameraUsageDescription = "description to use camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Add your description here";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "description to use photo library";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.revechatSdk.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7AAD15129E29A5E00F9ED85 /* Build configuration list for PBXProject "iOSReveChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7AAD16D29E29A5F00F9ED85 /* Debug */,
+				C7AAD16E29E29A5F00F9ED85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7AAD16F29E29A5F00F9ED85 /* Build configuration list for PBXNativeTarget "iOSReveChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7AAD17029E29A5F00F9ED85 /* Debug */,
+				C7AAD17129E29A5F00F9ED85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7AAD14E29E29A5E00F9ED85 /* Project object */;
+}

@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework
+${PODS_ROOT}/ReveChatSDK/ReveChatSDK.framework
+${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework

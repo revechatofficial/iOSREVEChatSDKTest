@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "user name"; ObjectID = "1Go-8Q-eB7"; */
+"1Go-8Q-eB7.text" = "user name";
+
+/* Class = "UITextField"; placeholder = "Subject"; ObjectID = "2vh-KH-HHh"; */
+"2vh-KH-HHh.placeholder" = "Subject";
+
+/* Class = "UILabel"; text = "All our agents are busy now. Your are No. 3 in a row. Your approximate waiting period will be 15 minutes. Please stay connected until we can assist you."; ObjectID = "IA1-NL-oBV"; */
+"IA1-NL-oBV.text" = "All our agents are busy now. Your are No. 3 in a row. Your approximate waiting period will be 15 minutes. Please stay connected until we can assist you.";
+
+/* Class = "UILabel"; text = "Our Agents are offline now. Please leave a message."; ObjectID = "MiY-M4-jTl"; */
+"MiY-M4-jTl.text" = "Our Agents are offline now. Please leave a message.";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "WJ5-UH-iWb"; */
+"WJ5-UH-iWb.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "ZB5-Pt-7Mp"; */
+"ZB5-Pt-7Mp.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "Initializing your chat"; ObjectID = "aLK-56-G4m"; */
+"aLK-56-G4m.text" = "Initializing your chat";
+
+/* Class = "UITextView"; text = "Type a message"; ObjectID = "bOx-qb-9il"; */
+"bOx-qb-9il.text" = "Type a message";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "zyQ-WF-fvf"; */
+"zyQ-WF-fvf.placeholder" = "Name";

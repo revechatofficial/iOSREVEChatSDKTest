@@ -1,0 +1,6 @@
+framework module ReveChatSDK {
+  umbrella header "ReveChatSDK.h"
+
+  export *
+  module * { export * }
+}
