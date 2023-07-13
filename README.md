@@ -98,7 +98,7 @@ let reveChatManager = ReveChatManager()
                                              loginState: LOGGED_IN,
                                              onNavigationViewController: <UINavigationController on which you want it to load>)
 ```
-**If you wish to show prechat form if visitor logged out then pass like bellow:**
+**If you wish to show prechat form if visitor logged in then pass like bellow:**
 
 Objective-c
 ```Objective-c
