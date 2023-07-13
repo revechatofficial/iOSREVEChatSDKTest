@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A49234F86B87F43CAA7E790 /* Pods_iOSReveChatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423FE0FD5DDA360EA0CDD070 /* Pods_iOSReveChatSDK.framework */; };
+		C77900882A5FB864006036DA /* LoginParamVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C77900862A5FB864006036DA /* LoginParamVC.m */; };
 		C7AAD15B29E29A5E00F9ED85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AAD15A29E29A5E00F9ED85 /* AppDelegate.m */; };
 		C7AAD15E29E29A5E00F9ED85 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AAD15D29E29A5E00F9ED85 /* SceneDelegate.m */; };
 		C7AAD16129E29A5E00F9ED85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AAD16029E29A5E00F9ED85 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		423FE0FD5DDA360EA0CDD070 /* Pods_iOSReveChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSReveChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		460EB9E2292BB4C4A44B1946 /* Pods-iOSReveChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReveChatSDK.release.xcconfig"; path = "Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK.release.xcconfig"; sourceTree = "<group>"; };
+		C77900862A5FB864006036DA /* LoginParamVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginParamVC.m; sourceTree = "<group>"; };
+		C77900872A5FB864006036DA /* LoginParamVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginParamVC.h; sourceTree = "<group>"; };
 		C7AAD15629E29A5E00F9ED85 /* iOSReveChatSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSReveChatSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AAD15929E29A5E00F9ED85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7AAD15A29E29A5E00F9ED85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 		C7AAD15829E29A5E00F9ED85 /* iOSReveChatSDK */ = {
 			isa = PBXGroup;
 			children = (
+				C77900872A5FB864006036DA /* LoginParamVC.h */,
+				C77900862A5FB864006036DA /* LoginParamVC.m */,
 				C7AAD15929E29A5E00F9ED85 /* AppDelegate.h */,
 				C7AAD15A29E29A5E00F9ED85 /* AppDelegate.m */,
 				C7AAD15C29E29A5E00F9ED85 /* SceneDelegate.h */,
@@ -215,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7AAD16129E29A5E00F9ED85 /* ViewController.m in Sources */,
+				C77900882A5FB864006036DA /* LoginParamVC.m in Sources */,
 				C7AAD15B29E29A5E00F9ED85 /* AppDelegate.m in Sources */,
 				C7AAD16C29E29A5F00F9ED85 /* main.m in Sources */,
 				C7AAD15E29E29A5E00F9ED85 /* SceneDelegate.m in Sources */,

@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 //#import "InitialViewController.h"
 #import "ReveChatNavigationController.h"
+#import "LoginState.h"
 
 @interface ReveChatManager : NSObject
 
@@ -17,7 +18,9 @@
 
 - (void) setupAccountWith:(NSString*)accountId;
 
--(void) initiateReveChatWith:(NSString*)visitorName visitorEmail:(NSString*)visitorEmail visitorMobile:(NSString*)visitorMobile onNavigationViewController:(UINavigationController *)viewController;
+-(void) initiateReveChatWith:(NSString*)visitorName visitorEmail:(NSString*)visitorEmail visitorMobile:(NSString*)visitorMobile onNavigationViewController:(UINavigationController *)navVC;
+
+-(void) initiateReveChatWith:(NSString*)visitorName visitorEmail:(NSString*)visitorEmail visitorMobile:(NSString*)visitorMobile loginState:(enum LState) loginState onNavigationViewController:(UINavigationController *)navVC;
 
 -(void) initiateReveChatWith:(NSString*)visitorName visitorEmail:(NSString*)visitorEmail visitorMobile:(NSString*)visitorMobile onViewController:(UIViewController *)viewController;
 
@@ -44,6 +47,8 @@
 - (void)setChatTitle:(NSString*)title;
 
 - (void)setDeviceToken:(NSString*)token;
+
+- (BOOL)isOnTopOfNavigationStack:(Class)vcClass;
 
 - (void)setNavBarTitleColor:(UIColor*)color;
 
@@ -83,7 +88,7 @@
 
 @property (strong,nonatomic) NSString* queueMessage;
 
-//@property (strong,nonatomic) InitialViewController *initialVC;
+@property (nonatomic,assign) enum LState loginState;
 
 @property (strong,nonatomic) NSString* themeName;
 

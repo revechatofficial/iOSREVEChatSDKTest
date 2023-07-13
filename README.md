@@ -76,7 +76,7 @@ onNavigationViewController: <UINavigationController on which you want it to load
 *To initiate video call.The audio parameter should be false
 ```
 
-### Pass login parameter while initiate ReveChatSDK
+### Pass login parameter while initiate ReveChatSDK (Check LoginParamVC class in this project)
 **If you wish not to show prechat form if visitor logged in then pass like bellow:**
 
 Objective-c
