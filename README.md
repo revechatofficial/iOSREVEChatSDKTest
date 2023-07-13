@@ -76,5 +76,50 @@ onNavigationViewController: <UINavigationController on which you want it to load
 *To initiate video call.The audio parameter should be false
 ```
 
+### Pass login parameter while initiate ReveChatSDK
+**If you wish not to show prechat form if visitor logged in then pass like bellow:**
+
+Objective-c
+```Objective-c
+[[ReveChatManager sharedManager]
+                 initiateReveChatWith:<visitor name>
+                 visitorEmail:<visitor email>
+                 visitorMobile:<visitor mobile>
+                 loginState: LOGGED_IN
+                 onNavigationViewController:<UINavigationController on which you want it to load>];
+```
+
+Swift
+```Swift
+let reveChatManager = ReveChatManager()
+            reveChatManager.initiateReveChat(with: <visitor name>,
+                                             visitorEmail:<visitor email>,
+                                             visitorMobile: <visitor mobile>,
+                                             loginState: LOGGED_IN,
+                                             onNavigationViewController: <UINavigationController on which you want it to load>)
+```
+**If you wish to show prechat form if visitor logged in then pass like bellow:**
+
+Objective-c
+```Objective-c
+[[ReveChatManager sharedManager]
+                 initiateReveChatWith:<visitor name>
+                 visitorEmail:<visitor email>
+                 visitorMobile:<visitor mobile>
+                 loginState: LOGGED_OUT
+                 onNavigationViewController:<UINavigationController on which you want it to load>];
+```
+
+Swift
+```Swift
+let reveChatManager = ReveChatManager()
+            reveChatManager.initiateReveChat(with: <visitor name>,
+                                             visitorEmail:<visitor email>,
+                                             visitorMobile: <visitor mobile>,
+                                             loginState: LOGGED_OUT,
+                                            onNavigationViewController: <UINavigationController on which you want it to load>)
+```
+
+
 ## Tutorial
 For more details go to this link: https://www.revechat.com/getting-started-ios-sdk/
