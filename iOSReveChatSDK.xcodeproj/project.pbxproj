@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A49234F86B87F43CAA7E790 /* Pods_iOSReveChatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423FE0FD5DDA360EA0CDD070 /* Pods_iOSReveChatSDK.framework */; };
+		0975DAA12FBB188DE93122C4 /* Pods_iOSReveChatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689C29B2F9BFD401D168F554 /* Pods_iOSReveChatSDK.framework */; };
 		C77900882A5FB864006036DA /* LoginParamVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C77900862A5FB864006036DA /* LoginParamVC.m */; };
 		C7AAD15B29E29A5E00F9ED85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AAD15A29E29A5E00F9ED85 /* AppDelegate.m */; };
 		C7AAD15E29E29A5E00F9ED85 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AAD15D29E29A5E00F9ED85 /* SceneDelegate.m */; };
@@ -19,8 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		423FE0FD5DDA360EA0CDD070 /* Pods_iOSReveChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSReveChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		460EB9E2292BB4C4A44B1946 /* Pods-iOSReveChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReveChatSDK.release.xcconfig"; path = "Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK.release.xcconfig"; sourceTree = "<group>"; };
+		689C29B2F9BFD401D168F554 /* Pods_iOSReveChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSReveChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFAA82D4E7539E87D15317A /* Pods-iOSReveChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReveChatSDK.release.xcconfig"; path = "Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK.release.xcconfig"; sourceTree = "<group>"; };
+		7B3B2B5937A708492A028316 /* Pods-iOSReveChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReveChatSDK.debug.xcconfig"; path = "Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		C77900862A5FB864006036DA /* LoginParamVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginParamVC.m; sourceTree = "<group>"; };
 		C77900872A5FB864006036DA /* LoginParamVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginParamVC.h; sourceTree = "<group>"; };
 		C7AAD15629E29A5E00F9ED85 /* iOSReveChatSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSReveChatSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,7 +36,6 @@
 		C7AAD16829E29A5F00F9ED85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7AAD16A29E29A5F00F9ED85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7AAD16B29E29A5F00F9ED85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EB98E05FF932050188713E43 /* Pods-iOSReveChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReveChatSDK.debug.xcconfig"; path = "Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +43,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A49234F86B87F43CAA7E790 /* Pods_iOSReveChatSDK.framework in Frameworks */,
+				0975DAA12FBB188DE93122C4 /* Pods_iOSReveChatSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1DC908CE58AB61F4146C5A52 /* Frameworks */ = {
+		62FCEA772C5DAFB7D9BF7AC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				423FE0FD5DDA360EA0CDD070 /* Pods_iOSReveChatSDK.framework */,
+				689C29B2F9BFD401D168F554 /* Pods_iOSReveChatSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -64,7 +64,7 @@
 				C7AAD15829E29A5E00F9ED85 /* iOSReveChatSDK */,
 				C7AAD15729E29A5E00F9ED85 /* Products */,
 				EC6DC56D70F3CD2250F369B4 /* Pods */,
-				1DC908CE58AB61F4146C5A52 /* Frameworks */,
+				62FCEA772C5DAFB7D9BF7AC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +99,8 @@
 		EC6DC56D70F3CD2250F369B4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EB98E05FF932050188713E43 /* Pods-iOSReveChatSDK.debug.xcconfig */,
-				460EB9E2292BB4C4A44B1946 /* Pods-iOSReveChatSDK.release.xcconfig */,
+				7B3B2B5937A708492A028316 /* Pods-iOSReveChatSDK.debug.xcconfig */,
+				6EFAA82D4E7539E87D15317A /* Pods-iOSReveChatSDK.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -112,11 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7AAD16F29E29A5F00F9ED85 /* Build configuration list for PBXNativeTarget "iOSReveChatSDK" */;
 			buildPhases = (
-				C0764FBDD50E2FF91AB2CBB7 /* [CP] Check Pods Manifest.lock */,
+				19F18101483F3E44DFC627A3 /* [CP] Check Pods Manifest.lock */,
 				C7AAD15229E29A5E00F9ED85 /* Sources */,
 				C7AAD15329E29A5E00F9ED85 /* Frameworks */,
 				C7AAD15429E29A5E00F9ED85 /* Resources */,
-				60B7E51B4BC81ADF51E26FBE /* [CP] Embed Pods Frameworks */,
+				A7E0C42CDAAF3AD95A91628C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,24 +173,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		60B7E51B4BC81ADF51E26FBE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C0764FBDD50E2FF91AB2CBB7 /* [CP] Check Pods Manifest.lock */ = {
+		19F18101483F3E44DFC627A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,6 +193,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E0C42CDAAF3AD95A91628C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSReveChatSDK/Pods-iOSReveChatSDK-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -363,7 +363,7 @@
 		};
 		C7AAD17029E29A5F00F9ED85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB98E05FF932050188713E43 /* Pods-iOSReveChatSDK.debug.xcconfig */;
+			baseConfigurationReference = 7B3B2B5937A708492A028316 /* Pods-iOSReveChatSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -396,7 +396,7 @@
 		};
 		C7AAD17129E29A5F00F9ED85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 460EB9E2292BB4C4A44B1946 /* Pods-iOSReveChatSDK.release.xcconfig */;
+			baseConfigurationReference = 6EFAA82D4E7539E87D15317A /* Pods-iOSReveChatSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -12,6 +12,8 @@
 #import "ReveChatNavigationController.h"
 #import "LoginState.h"
 
+#define REVECHATSDK_BUNDLE [NSBundle bundleForClass:[self class]]
+
 @interface ReveChatManager : NSObject
 
 +(instancetype) sharedManager;
@@ -95,4 +97,5 @@
 @property (strong,nonatomic) ReveChatNavigationController* navCtrl;
 
 @property (strong,nonatomic) UINavigationController *appNavController;
+-(UIColor*) getNavBarButtonColor;
 @end
