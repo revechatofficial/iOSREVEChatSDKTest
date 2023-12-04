@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - GoogleWebRTC (1.1.31999)
-  - ReveChatSDK (3.0.0):
+  - ReveChatSDK (3.0.1):
     - AFNetworking
     - GoogleWebRTC
     - SocketRocket
@@ -34,7 +34,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   GoogleWebRTC: b39a78c4f5cc6b0323415b9233db03a2faa7b0f0
-  ReveChatSDK: c521a1c7b4094a9aec734ab2bf1c64f236fe30e0
+  ReveChatSDK: cad743d8604103eea851758f62c394e92c04a940
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
 
 PODFILE CHECKSUM: 0e04ffba014dfcb8f4db0588c5582bf11eca131f
